@@ -11,7 +11,7 @@
                 <li><a href='index.php' target='_self'>Home</a></li>
                 <li><a href='meet-team.php' target='_self'>Company</a></li>
                 <li><a href='#' target='_self'>Business Cloud</a></li>
-                <li><a href='#' target='_self'>Solutions</a></li>
+                <li><a href='solutions.php' target='_self'>Solutions</a></li>
                 <li><a href='#' target='_self'>Services</a></li>
                 <li><a href='#' target='_self'>Resources</a></li>
                 <li><a href='#' target='_self'>Careers</a></li>

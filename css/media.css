@@ -448,6 +448,49 @@
     .news-cta {
         padding: 60px 0 0;
     }
+    .our-approach-wrap {
+        padding: 50px 0 25px;
+    }
+    .our-approach-item {
+        padding: 20px;
+    }
+    .our-approach-item h4 {
+        padding: 20px 0;
+    }
+    .evaluting-criteria-wrap {
+        margin: 50px 25px;
+        padding: 100px 0 70px;
+    }
+    .evalution-criteria-box {
+        padding: 20px;
+    }
+    .evalution-criteria-box h4 {
+        padding: 20px 0;
+    }
+    .our-approach-solution-wrap {
+        padding: 50px 0;
+    }
+    .our-approach-solution-content p {
+        padding-top: 24px;
+    }  
+    .service-details-wrap {
+        padding: 50px 0;
+    }  
+    .service-details-content h3 {
+        padding: 0 0 25px;
+    }
+    .karios-ai-details-wrap {
+        padding: 50px 0;
+    }
+    .karios-ai-content-wrap {
+        padding: 50px 0 25px;
+    }
+    .karios-ai-cases-wrap {
+        margin: 50px 20px;
+    }
+    .karios-ai-cases {
+        padding: 100px 0;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -659,7 +702,54 @@
     .news-cta {
         padding: 46px 0 0;
     }
-
+    .our-approach-wrap {
+        padding: 35px 0 18px;
+    }
+    .our-approach-item {
+        margin-bottom: 26px;
+    }
+    .evaluting-criteria-wrap {
+        margin: 35px 22px;
+        padding: 70px 0 52px;
+    }
+    .evalution-criteria-box {
+        padding: 18px;
+    }
+    .evalution-criteria-box h4 {
+        padding: 18px 0;
+    }
+    .our-approach-solution-wrap {
+        padding: 35px 0;
+    }
+    .our-approach-solution-content p {
+        padding-top: 20px;
+    }
+    .service-details-wrap {
+        padding: 35px 0;
+    }
+    .karios-ai-details-wrap {
+        padding: 35px 0;
+    }
+    .karios-ai-details-wrap {
+        padding: 35px 0;
+    }
+    .karios-ai-content-wrap {
+        padding: 35px 0 18px;
+    }
+    .karios-ai-content-box {
+        padding: 20px;
+        margin: 0 0 26px;
+    }
+    .karios-ai-cases-wrap {
+        margin: 35px 15px;
+    }
+    .karios-ai-cases {
+        padding: 70px 0;
+    }
+    .karios-ai-cases-item {
+        padding: 28px 20px;
+        margin: 0 0 26px;
+    }    
 }
 
 @media (max-width: 991px) {
@@ -1185,6 +1275,71 @@
     .news-details-list ul li {
         padding: 0 0 6px 38px;
     }
+    .our-approach-item {
+        padding: 16px;
+        margin-bottom: 22px;
+    }
+    .our-approach-item h4 {
+        padding: 16px 0;
+    }
+    .our-approach-wrap {
+        padding: 22px 0 15px;
+    }
+    .evaluting-criteria-wrap {
+        margin: 22px 18px;
+        padding: 44px 0 32px;
+    }
+    .evalution-criteria-box {
+        padding: 14px;
+        margin: 0 0 24px;
+    }
+    .evalution-criteria-box h4 {
+        padding: 14px 0;
+    }
+    .our-approach-solution-wrap {
+        padding: 22px 0 5px;
+    }
+    .our-approach-solution-content p {
+        padding-top: 10px;
+    }
+    .our-approach-solution-img {
+        margin: 0;
+        max-width: 100%;
+        padding: 20px 0 0;
+    }
+    .service-details-wrap {
+        padding: 22px 0;
+    }
+    .service-details-content h3 {
+        padding: 0 0 16px;
+        font-size: 26px;
+    }
+    .karios-ai-details-wrap {
+        padding: 22px 0;
+    }
+    .karios-ai-details-wrap {
+        padding: 22px 0;
+    }
+    .karios-ai-content-wrap {
+        padding: 22px 0 12px;
+    }
+    .karios-ai-content-box {
+        padding: 16px;
+        margin: 0 0 20px;
+    }
+    .karios-ai-content-box h4 {
+        padding: 18px 0;
+    }
+    .karios-ai-cases-wrap {
+        margin: 22px 15px;
+    }
+    .karios-ai-cases {
+        padding: 54px 0;
+    }
+    .karios-ai-cases-item {
+        padding: 24px 16px;
+        margin: 0 0 22px;
+    }    
 }
 
 @media (max-width: 767px) {
@@ -1629,4 +1784,35 @@
     .news-cta {
         padding: 22px 0 0;
     }
+    .our-approach h3 {
+        text-align: center;
+    }
+    .our-approach-item h4 {
+        padding: 10px 0;
+    }
+    .evalution-criteria-box {
+        margin: 0 0 20px;
+    }
+    .evalution-criteria-box h4 {
+        padding: 10px 0;
+    }
+    .evaluting-criteria h3{
+        text-align: center;
+    }
+    .service-details-content {
+        max-width: 100%;
+    }
+    .karios-ai-details-content p {
+        max-width: 100%;
+    }
+    .karios-ai-content-box h4 {
+        padding: 14px 0;
+    }
+    .karios-ai-cases {
+        padding: 40px 0;
+    }
+    .karios-ai-cases-item {
+        padding: 20px 14px;
+        margin: 0 0 18px;
+    }    
 }
