@@ -8,7 +8,7 @@
 <body>
     <?php include("include/header.php"); ?>
     <!-- banner start -->
-    <section class="banner-wrap banner-main-wrap">
+    <section class="banner-wrap banner-main-wrap" style="background-image: url('./images/solutions-bg.png');">
         <div class="container">
             <div class="banner banner-main-main">
                 <h1 class="h1">Deal Sourcing</h1>

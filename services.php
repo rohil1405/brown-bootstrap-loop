@@ -8,134 +8,63 @@
 <body>
     <?php include("include/header.php"); ?>
     <!-- banner start -->
-    <section class="banner-wrap banner-main-wrap solution-banenr-wrap" style="background-image: url('./images/our-solution-bg.png')">
+    <section class="banner-wrap banner-main-wrap" style="background-image: url('./images/solutions-bg.png');">
         <div class="container">
             <div class="banner banner-main-main">
-                <h1 class="h1">Our Solutions</h1>
-                <p class='banner-desc'>At Brownloop, Inc we understand that private equity (PE) firms need to make informed decisions based on data for both themselves and their portfolio companies.</p>
+                <h1 class="h1">Our Services</h1>
             </div>
         </div>
     </section>
     <!-- banner end -->
 
-    <section class="solution-growth-wrap">
+    <!-- services-drive-section start -->
+    <section class="services-drive-wrap">
         <div class="container">
-            <div class="solution-growth">
+            <div class="services-drive">
                 <div class="section-top">
                     <div class="section-text">
-                        <h2 class="h3">Sustainable Solutions for Corporate Growth</h2>
+                        <h2 class="h3">Technology Services</h2>
                     </div>
                 </div>
-
                 <div class="section-bottom">
-                    <div class="row g-0 solution-growth-box">
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 solution-growth-area">
-                            <div class="solution-growth-item">
-                                <img src='./images/esg.png' alt='esg' width='296' height='157' />
-                                <div class="growth-content">
-
-                                    <a href='solutions-details-v2.php' target='_self'>
-                                        <h5 class="h5">ESG Reporting</h5>
+                    <div class="row service-drive-box">
+                        <div class="col-lg-4 col-sm-6 services-drive-area">
+                            <div class="service-drive-item">
+                                <img src='./images/data-ai.png' alt='data-ai' width='405' height='215'>
+                                <div class="services-content">
+                                    <a href='.service-drive-box' target='_self'>
+                                        <h5 class="h5">Data Strategy & Roadmap Consulting</h5>
                                     </a>
-                                    <p>At Brownloop, Inc. we understand that private equity (PE) firms</p>
+
+                                    <p>Leverage your data to drive business growth and stay competitive with our Data Strategy & Roadmap Consulting services.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-sm-6 services-drive-area">
+                            <div class="service-drive-item">
+                                <img src='./images/risk.png' alt='risk' width='405' height='215'>
+                                <div class="services-content">
+                                    <a href='.service-drive-box' target='_self'>
+                                        <h5 class="h5">Data, Analytics & AI Development</h5>
+                                    </a>
+
+                                    <p>Data-driven decision-making is key to identifying opportunities, managing risks, and achieving superior returns.</p>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 solution-growth-area">
-                            <div class="solution-growth-item">
-                                <img src='./images/portals.png' alt='portals' width='296' height='157' />
-                                <div class="growth-content">
-
-                                    <a href='solutions-details-v1.php' target='_self'>
-                                        <h5 class="h5">Investor Portals</h5>
-                                    </a>
-                                    <p>At Brownloop, Inc. we understand that private equity (PE) firms</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 solution-growth-area">
-                            <div class="solution-growth-item">
-                                <img src='./images/master.png' alt='master' width='296' height='157' />
-                                <div class="growth-content">
-
-                                    <a href='solutions-details-v2.php' target='_self'>
-                                        <h5 class="h5">Master Data</h5>
-                                    </a>
-                                    <p>At Brownloop, Inc. we understand that private equity (PE) firms</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 solution-growth-area">
-                            <div class="solution-growth-item">
-                                <img src='./images/performace.png' alt='performace' width='296' height='157' />
-                                <div class="growth-content">
-
-                                    <a href='solutions-details-v1.php' target='_self'>
-                                        <h5 class="h5">Performance Management</h5>
-                                    </a>
-                                    <p>At Brownloop, Inc. we understand that private equity (PE) firms</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 solution-growth-area">
-                            <div class="solution-growth-item">
-                                <img src='./images/reporting.jpg' alt='portco-reporting' width='296' height='157' />
-                                <div class="growth-content">
-
-                                    <a href='solutions-details-v2.php' target='_self'>
-                                        <h5 class="h5">PortCo Reporting</h5>
-                                    </a>
-                                    <p>At Brownloop, Inc. we understand that private equity (PE) firms</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 solution-growth-area">
-                            <div class="solution-growth-item">
-                                <img src='./images/risk.png' alt='risk' width='296' height='157' />
-                                <div class="growth-content">
-
-                                    <a href="solutions-details-v1.php" target='_self'>
-                                        <h5 class="h5">Risk Management</h5>
-                                    </a>
-                                    <p>At Brownloop, Inc. we understand that private equity (PE) firms</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 solution-growth-area">
-                            <div class="solution-growth-item">
-                                <img src='./images/spend.png' alt='spend' width='296' height='157' />
-                                <div class="growth-content">
-
-                                    <a href='solutions-details-v2.php' target='_self'>
-                                        <h5 class="h5">Spend Analytics</h5>
-                                    </a>
-                                    <p>At Brownloop, Inc. we understand that private equity (PE) firms</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 solution-growth-area">
-                            <div class="solution-growth-item">
-                                <img src='./images/value.png' alt='value' width='296' height='157' />
-                                <div class="growth-content">
-                                    <a href='solutions-details-v1.php' target='_self'>
-                                        <h5 class="h5">Valuation</h5>
+                        <div class="col-lg-4 col-sm-6 services-drive-area">
+                            <div class="service-drive-item">
+                                <img src='./images/value.png' alt='value' width='405' height='215'>
+                                <div class="services-content">
+                                    <a href='.service-drive-box' target='_self'>
+                                        <h5 class="h5">Application Development</h5>
                                     </a>
 
-                                    <p>At Brownloop, Inc. we understand that private equity (PE) firms</p>
+                                    <p>In the competitive landscape of private equity, having the right technology can be a game-changer.</p>
                                 </div>
                             </div>
 
@@ -143,7 +72,55 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
+    <!-- services-drive-section end -->
+
+    <!-- services-method-wrap section start -->
+    <section class="services-method-wrap">
+        <div class="container">
+            <div class="services-method">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="h3">Program Management Services</h3>
+                        <div class="service-method-type">
+                            <div class="services-drive-area">
+                                <div class="service-drive-item">
+                                    <img src='./images/project-management.png' alt='data-ai' width='405' height='215'>
+                                    <div class="services-content">
+                                        <a href='.service-drive-box' target='_self'>
+                                            <h5 class="h5">Program Management</h5>
+                                        </a>
+
+                                        <p>Effective program management is critical for private equity firms seeking to maximize the value of their investments.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3 class="h3">Application Maintenance</h3>
+                        <div class="service-method-type">
+                            <div class="services-drive-area">
+                                <div class="service-drive-item">
+                                    <img src='./images/application-managment.png' alt='data-ai' width='405' height='215'>
+                                    <div class="services-content">
+                                        <a href='.service-drive-box' target='_self'>
+                                            <h5 class="h5">Managed Services</h5>
+                                        </a>
+
+                                        <p>In the high-stakes world of private equity, uninterrupted application performance, efficient development workflows, and high-quality data are crucial.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services-method-wrap section end -->
 
     <!-- customers-partner-section start -->
     <section class="customers-partner-wrap">
@@ -151,7 +128,7 @@
             <div class="customers-partner">
                 <div class="section-top">
                     <div class="section-text">
-                        <h2 class="h3">Partner Solutions</h2>
+                        <h2 class="h3">Technology Stack</h2>
                     </div>
                 </div>
                 <div class="section-bottom">
@@ -163,22 +140,22 @@
                         </li>
                         <li>
                             <div class="customer-solution-item">
-                                <img src='./images/azure.png' alt='azure' width='170' height='48' />
+                                <img src='./images/tableau.png' alt='tableau' width='170' height='53' />
                             </div>
                         </li>
                         <li>
                             <div class="customer-solution-item">
-                                <img src='./images/atom.png' alt='atom' width='208' height='24' />
+                                <img src='./images/five.png' alt='five' width='155' height='34' />
                             </div>
                         </li>
                         <li>
                             <div class="customer-solution-item">
-                                <img src='./images/plan.png' alt='naplan' width='182' height='39' />
+                                <img src='./images/microsoft-azure.png' alt='microsoft-azure' width='166' height='48' />
                             </div>
                         </li>
                         <li>
                             <div class="customer-solution-item">
-                                <img src='./images/bloom.png' alt='bloom' width='178' height='33' />
+                                <img src='./images/power-bi.png' alt='power-bi' width='180' height='44' />
                             </div>
                         </li>
                     </ul>
@@ -188,8 +165,6 @@
     </section>
     <!-- customers-partner-section end -->
 
-
-    <!-- related-articles-section start -->
     <section class="related-articles-wrap">
         <div class="container">
             <div class="related-articles">
@@ -207,9 +182,9 @@
 
                             <div class="blog-schedule">
                                 <div class="content-date">jun 21, 2024</div>
-                                <a href='case-studies.php' target="_self">health care</a>
+                                <a href='service-details.php' target="_self">health care</a>
                             </div>
-                            <a class='blog-content-text' href='case-studies.php' target='_self'>
+                            <a class='blog-content-text' href='service-details.php' target='_self'>
                                 <h5 class="h5">Lorem ipsum dolor sit amet, sectetur adipiscing elit lorem ipsum dolor sit amet.</h5>
                             </a>
                             <p>Empowering private equity firms to achieve their full potential through...</p>
@@ -234,12 +209,12 @@
                                 <div class="content-date">jun 22, 2024</div>
                                 <a href='case-studies.php' target="_self">banking</a>
                             </div>
-                            <a class='blog-content-text' href='case-studies.php' target='_self'>
+                            <a class='blog-content-text' href='service-details.php' target='_self'>
                                 <h5 class="h5">Lorem ipsum dolor sit amet, sectetur adipiscing elit lorem ipsum dolor sit amet.</h5>
                             </a>
                             <p>Empowering private equity firms to achieve their full potential through...</p>
                             <div class="btn-link">
-                                <a href='case-studies.php' target='_self'>
+                                <a href='service-details.php' target='_self'>
                                     Read More
                                     <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.16602 6H12.8327M12.8327 6L7.83268 11M12.8327 6L7.83268 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -257,14 +232,14 @@
 
                             <div class="blog-schedule">
                                 <div class="content-date">jun 21, 2024</div>
-                                <a href='case-studies.php' target="_self">health care</a>
+                                <a href='service-details.php' target="_self">health care</a>
                             </div>
-                            <a class='blog-content-text' href='#' target='_self'>
+                            <a class='blog-content-text' href='service-details.php' target='_self'>
                                 <h5 class="h5">Lorem ipsum dolor sit amet, sectetur adipiscing elit lorem ipsum dolor sit amet.</h5>
                             </a>
                             <p>Empowering private equity firms to achieve their full potential through...</p>
                             <div class="btn-link">
-                                <a href='case-studies.php' target='_self'>
+                                <a href='service-details.php' target='_self'>
                                     Read More
                                     <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.16602 6H12.8327M12.8327 6L7.83268 11M12.8327 6L7.83268 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -277,9 +252,7 @@
             </div>
         </div>
     </section>
-    <!-- related-articles-section end -->
 
-    <!-- partners-today-section start -->
     <section class="partners-today-wrap">
         <div class="container">
             <div class="partners-today">
@@ -300,7 +273,6 @@
             </div>
         </div>
     </section>
-    <!-- partners-today-section end -->
 
 
 

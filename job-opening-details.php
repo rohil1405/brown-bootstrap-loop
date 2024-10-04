@@ -178,8 +178,14 @@
                         </div>
                     </div>
                     <div class="col job-fieldset">
-                        <label for="formFileMultiple" class="form-label">Upload Resume</label>
-                        <input class="form-control" placeholder="Add file or drop files here" type="file" id="formFileMultiple" multiple>
+                        <div class='file-group'>
+                            <input type="file" id=' file' class='file-control' multiple />
+                            <label for='file' class='file-label'><span>
+                                    <img src='./images/file.svg' alt='upload' width='24' height="24" />
+                                    Add File or drop files here
+                                </span></label>
+                        </div>
+
                     </div>
                     <div class="col job-fieldset">
                         <label for="textarea" class="form-label">Message</label>

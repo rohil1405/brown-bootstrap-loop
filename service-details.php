@@ -47,7 +47,7 @@
                     <h3 class="h3">Our Values</h3>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 our-values-services-box">
+                    <div class="col-lg-4 col-sm-6 our-values-services-box">
                         <div class="our-values-services-item">
                             <img src='./images/focus.png' alt='focus' width='60' height='60' />
                             <h4 class="h4">Data Governance</h4>
@@ -55,7 +55,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 our-values-services-box">
+                    <div class="col-lg-4 col-sm-6 our-values-services-box">
                         <div class="our-values-services-item">
                             <img src='./images/stage.png' alt='stage' width='60' height='60' />
                             <h4 class="h4">Advanced Analytics</h4>
@@ -63,7 +63,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 our-values-services-box">
+                    <div class="col-lg-4 col-sm-6 our-values-services-box">
                         <div class="our-values-services-item">
                             <img src='./images/ai-ml.png' alt='ai-ml' width='60' height='60' />
                             <h4 class="h4">AI & Machine Learning</h4>
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-md-4 services-benefits-item">
+                    <div class="col-lg-4 col-sm-6 services-benefits-item">
                         <div class="services-benefits-box">
                             <div class="services-benefits-number">
                                 <h5 class="h5">1</h5>
@@ -94,7 +94,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 services-benefits-item">
+                    <div class="col-lg-4 col-sm-6 services-benefits-item">
                         <div class="services-benefits-box">
                             <div class="services-benefits-number">
                                 <h5 class="h5">2</h5>
@@ -104,7 +104,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 services-benefits-item">
+                    <div class="col-lg-4 col-sm-6 services-benefits-item">
                         <div class="services-benefits-box">
                             <div class="services-benefits-number">
                                 <h5 class="h5">3</h5>
@@ -114,7 +114,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 services-benefits-item">
+                    <div class="col-lg-4 col-sm-6 services-benefits-item">
                         <div class="services-benefits-box">
                             <div class="services-benefits-number">
                                 <h5 class="h5">4</h5>
@@ -124,7 +124,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 services-benefits-item">
+                    <div class="col-lg-4 col-sm-6 services-benefits-item">
                         <div class="services-benefits-box">
                             <div class="services-benefits-number">
                                 <h5 class="h5">5</h5>

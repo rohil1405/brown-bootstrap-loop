@@ -491,6 +491,63 @@
     .karios-ai-cases {
         padding: 100px 0;
     }
+    .services-benefits-wrap {
+        padding: 50px 0 25px;
+    }
+    .services-benefits-box {
+        padding: 20px;
+    }
+    .our-values-services-wrap {
+        margin: 50px 25px;
+        padding: 100px 0;
+    }
+    .our-values-services-item {
+        padding: 16px;
+    }
+    .client-overview-wrap {
+        padding: 50px 0;
+    } 
+    .client-challenges-wrap {
+        margin: 50px 25px;
+        padding: 100px 0;
+    } 
+    .client-challenges-box h4 {
+        padding: 20px 0;
+    }  
+    .client-challenges-box {
+        padding: 20px;
+    }
+    .brownloop-solution-wrap {
+        padding: 50px 0 25px;
+    }
+    .brownloop-solution-box {
+        padding: 20px;
+    }
+    .brownloop-solution-box h4 {
+        padding: 20px 0;    
+    }
+    .value-drive-wrap {
+        padding: 100px 0 78px;
+        margin: 50px 25px;
+    }
+    .value-drive-box {
+        padding: 28px 20px;
+        margin: 0 0 28px;
+    }
+    .brownloop-conclusion-wrap {
+        padding: 50px 0;
+    }
+    .brwonloop-conclusion p {
+        padding: 20px 0 0;
+    }
+    .project-type {
+        gap: 10px;
+        padding: 0 0 20px;
+    }
+    .banner-social-media-listing {
+        gap: 14px;
+        padding: 36px 0 0;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -749,7 +806,57 @@
     .karios-ai-cases-item {
         padding: 28px 20px;
         margin: 0 0 26px;
-    }    
+    }  
+    .services-benefits-box h5 {
+        padding: 20px 0;
+    } 
+    .our-values-services-wrap {
+        margin: 35px 20px;
+        padding: 75px 0;
+    }
+    .our-values-services-item h4 {
+        padding: 20px 0;
+    }
+    .client-overview-wrap {
+        padding: 35px 0;
+    }
+    .client-overview p {
+        padding-top: 20px;
+    }
+    .client-challenges-wrap {
+        margin: 35px 18px;
+        padding: 70px 0;
+    }
+    .client-challenges-box {
+        padding: 16px;
+    }
+    .brownloop-solution-wrap {
+        padding: 35px 0 18px;
+    }
+    .brownloop-solution-top p {
+        padding: 20px 0 38px;
+    }
+    .brownloop-solution-box {
+        padding: 16px;
+        margin: 0 0 26px;
+    }
+    .value-drive-wrap {
+        padding: 70px 0 54px;
+        margin: 35px 20px;
+    }
+    .value-drive-box {
+        padding: 24px 16px;
+        margin: 0 0 24px;
+    }
+    .value-drive-box h6 {
+        padding: 20px 0 16px;
+    }
+    .brownloop-conclusion-wrap {
+        padding: 35px 0;
+    }
+    .brwonloop-conclusion p {
+        padding: 16px 0 0;
+    }
 }
 
 @media (max-width: 991px) {
@@ -1340,6 +1447,82 @@
         padding: 24px 16px;
         margin: 0 0 22px;
     }    
+    .services-benefits-wrap {
+        padding: 22px 0 12px;
+    }
+    .services-benefits-box {
+        padding: 16px;
+        margin: 0 0 24px;
+    }
+    .services-benefits-box h5 {
+        padding: 16px 0;
+    } 
+    .our-values-services-wrap {
+        margin: 22px 15px;
+        padding: 54px 0;
+    }
+    .our-values-services-item h4 {
+        padding: 16px 0;
+    }
+    .our-values-services-item {
+        margin: 0 0 24px;
+    }
+    .client-overview-wrap {
+        padding: 22px 0;
+    }
+    .client-overview p {
+        padding-top: 16px;
+    }
+    .client-challenges-wrap {
+        margin: 22px 15px;
+        padding: 54px 0;
+    }
+    .client-challenges-box {
+        padding: 13px;
+        margin: 0 0 20px;
+    }
+    .client-challenges-box h4 {
+        padding: 16px 0;
+    }
+    .brownloop-solution-wrap {
+        padding: 22px 0 15px;
+    }
+    .brownloop-solution-top p {
+        padding: 16px 0 28px;
+    }
+    .brownloop-solution-box h4 {
+        padding: 16px 0;
+        font-size: 22px;
+    }
+    .brownloop-solution-box {
+        padding: 13px;
+        margin: 0 0 22px;
+    }
+    .value-drive-wrap {
+        padding: 54px 0 40px;
+        margin: 22px 15px;
+    }
+    .value-drive-box {
+        padding: 20px 13px;
+        margin: 0 0 20px;
+    }
+    .value-drive-box h6 {
+        padding: 16px 0 13px;
+    }
+    .brownloop-conclusion-wrap {
+        padding: 22px 0;
+    }
+    .brwonloop-conclusion p {
+        padding: 12px 0 0;
+    }
+    .banner-social-media-listing {
+        gap: 12px;
+        padding: 26px 0 0;
+    }
+    .project-type {
+        gap: 8px;
+        padding: 0 0 16px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1814,5 +1997,48 @@
     .karios-ai-cases-item {
         padding: 20px 14px;
         margin: 0 0 18px;
-    }    
+    }   
+    .services-benefits h3 {
+        max-width: 100%;
+    } 
+    .services-benefits-box {
+        padding: 14px;
+        margin: 0 0 20px;
+    }
+    .our-values-services-wrap {
+        padding: 40px 0;
+    }
+    .our-values-services-item {
+        margin: 0 0 20px;
+        padding: 12px;
+    }
+    .client-challenges-box h4 {
+        padding: 12px 0;
+    }
+    .brownloop-solution-top p {
+        padding: 12px 0 22px;
+    }
+    .brownloop-solution-box h4 {
+        padding: 12px 0;
+    }
+    .brownloop-solution-box {
+        padding: 10px;
+        margin: 0 0 18px;
+    }
+    .value-drive-box h6 {
+        padding: 12px 0;
+    }
+    .banner.banner-main-main h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .banner-social-media-listing {
+        gap: 10px;
+        padding: 22px 0 0;
+    }
+    .project-type {
+        gap: 6px;
+        padding: 0 0 12px;
+    }
+    
 }

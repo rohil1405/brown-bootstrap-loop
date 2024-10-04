@@ -487,6 +487,7 @@ h6.h6 {
 .service-drive-box {
   margin: 0 -16px;
   row-gap: 18px;
+  display: flex;
 }
 .services-drive-area {
   padding: 0 16px;
@@ -2018,8 +2019,11 @@ h6.h6 {
 .job-details-item {
   display: flex;
   justify-content: space-between;
-  padding: 0 0 32px;
+  padding: 40px 0 32px;
   border-bottom: 1px solid #D4D9D5;
+}
+.job-details-item:first-child {
+  padding-top: 0;
 }
 .job-details {
   max-width: 624px;
@@ -2087,12 +2091,110 @@ h6.h6 {
   padding: 0 0 32px;
   margin-bottom: 0;
 }
+.file-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 16px;
+  line-height: 28px;
+  color: #64748B;
+  font-weight: 500;
+  height: 60px;
+  padding: 8px 12px;
+  border: 1px solid #D4D9D5;
+  border-radius: 8px;
+  background-color: rgba(212, 217, 213, 0.3);
+}
+input[type='file'] {
+  opacity:0;
+  width: 100%;
+  height: 48px;
+  cursor: pointer;
+  z-index: 999;
+}
+.file-label span {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 24px;
+  color: #64748B;
+}
+.file-label:after{
+  z-index: 1;
+  content: "Choose File";
+  position: absolute;
+  background-color:#2F4E63;
+  right:0;
+  top:0;
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 6px 16px 6px 0;
+  color:#fff;
+  line-height:24px;
+  font-size: 16px;
+  font-weight: 24px;
+  border-radius: 50px;
+}
+.file-control {
+  position: absolute;
+  right: 0;
+}
 .news-details-list {
   max-width: 843px;
   position: relative;
 }
 .news-details-wrap {
   padding: 64px 0;
+}
+.banner-social-media-listing {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 48px 0 0;
+}
+.project-type {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 0 24px;
+}
+.project-type p {
+  color: #fff;
+}
+.banner.banner-main-main.case-banner-wrap h1 {
+  text-align: left;
+  margin: 0 ;
+  max-width: 1060px;
+}
+.banner.banner-main-main.case-banner-wrap p {
+  padding: 0;
+}
+.project-name  {
+  display: inline-block;
+  background-color:#D4D9D5;
+  border-radius: 20px;
+  padding: 4px 16px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+}
+.banner-social-media-listing li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  background-color: #fff;
+  border: 2px solid transparent;
+  box-shadow: 0 1px 3px 0 rgba(3,7,22, 0.1);
+}
+.banner-social-media-listing li a:hover {
+  border: 2px solid #D4D9D5 ;
 }
 .news-share {
   font-size: 18px;
@@ -2580,6 +2682,19 @@ h6.h6 {
   top: 0;
   border-radius: 40px;
 }
+.solution-banenr-wrap {
+  position: relative;
+}
+.solution-banenr-wrap:before {
+  content: '';
+  background-color: rgba(151,167,177,0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 40px;
+}
 .services-benefits-number {
   border-radius: 100%;
   border: 2px solid rgba(33, 55, 69, 0.3);
@@ -2600,6 +2715,12 @@ h6.h6 {
   border-radius: 16px;
   margin: 0 0 32px;
 }
+.services-benefits-item {
+  display: flex;
+}
+.services-benefits h3 {
+  max-width: 515px;
+}
 .services-benefits-box h5 {
   padding: 24px 0;
   text-align: center;
@@ -2607,6 +2728,110 @@ h6.h6 {
 .services-benefits-box p {
   text-align: center;
 }
+.client-overview-wrap {
+  padding: 64px 0;
+}
+.client-overview p {
+  padding-top: 24px;
+}
+.client-challenges-box {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+.client-challenges-box h4 {
+  padding: 24px 0;
+}
+.client-challenges-wrap {
+  background-image: url('../images/client-challenges-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 64px 30px;
+  border-radius: 40px;
+  padding: 128px 0;
+  position: relative;
+}
+.client-challenges-wrap:before {
+  content: '';
+  background: linear-gradient(270deg, rgba(33,55,69,0.9) 59%, rgba(33,55,69,0.74) 88%, rgba(33,55,69,0.61) 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 40px;
+}
+.client-challenges {
+  position: relative;
+  z-index: 999;
+}
+.brownloop-solution-item, .client-challenges-item, .value-drive-item {
+  display: flex;
+}
+.client-challenges h3 {
+  color: #fff;
+}
+.brownloop-solution-box {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  margin: 0 0 32px;
+}
+.brownloop-solution-box p {
+  text-align: center;
+}
+.brownloop-solution-wrap {
+  padding: 64px 0 32px;
+}
+.brownloop-solution-box h4 {
+  padding: 24px 0;
+  text-align: center;
+}
+.brownloop-solution-top p {
+  padding: 24px 0 48px;
+}
+.value-drive h3 {
+  color: #fff;
+}
+.value-drive-wrap {
+  background-color: #213745;
+  padding: 128px 0 96px;
+  margin: 64px 32px;
+  border-radius: 40px;
+  background-image: url('../images/value-drive-pattern.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.value-drive-box {
+  padding: 32px 24px;
+  background-color: rgba(255,255,255,0.2);
+  text-align: center;
+  border-radius: 8px;
+  color: #fff;
+  margin: 0 0 32px;
+}
+.value-drive-box h6 {
+  color: #fff;
+  text-align: center;
+  padding: 24px 0 16px;
+}
+.value-drive-box p {
+  color: #fff;
+  text-align: center;
+}
+.brwonloop-conclusion p {
+  padding: 24px 0 0;
+}
+.brownloop-conclusion-wrap {
+  padding: 64px 0;
+}
+
+
+
+
 
 .footer-wrap {
   background-color: #213745;
