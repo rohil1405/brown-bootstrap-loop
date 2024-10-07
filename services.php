@@ -20,7 +20,7 @@
     <!-- service-value-chain section start -->
     <section class="service-value-chain-wrap">
         <div class="container">
-            <div class="service-value-chain">
+            <div class="service-value-chain table-responsive-md">
                 <table class="table table-bordered">
                     <thead>
                         <td colspan="12">
