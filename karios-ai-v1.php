@@ -43,8 +43,8 @@
     <section class="karios-ai-diagram-wrap">
         <div class="container">
             <div class="karios-ai-diagram">
-                <div class="row karios-ai-diagram-box">
-                    <div class="col-md-4 karios-ai-diagram-area">
+                <div class="karios-ai-diagram-box">
+                    <div class="karios-ai-diagram-area">
                         <div class="karios-ai-details-types">
                             <h4 class="h4">Data Types</h4>
 
@@ -52,68 +52,75 @@
                                 <div class="karios-ai-data-title">
                                     <h6 class="h6">Investment Data</h6>
                                 </div>
-                                <ul class='karios-ai-data-listing'>
-                                    <li>Portfolio Financials</li>
-                                    <li>Ops metrics</li>
-                                    <li>DE&I</li>
-                                </ul>
+                                <div class="karios-ai-type-list">
+                                    <ul class='karios-ai-data-listing'>
+                                        <li>Portfolio Financials</li>
+                                        <li>Ops metrics</li>
+                                        <li>DE&I</li>
+                                    </ul>
+                                </div>
+
                             </div>
 
                             <div class="karios-ai-data">
                                 <div class="karios-ai-data-title">
                                     <h6 class="h6">Third Party Data</h6>
                                 </div>
-                                <ul class='karios-ai-data-listing'>
-                                    <li>Market Data</li>
-                                    <li>Alternative Data</li>
-                                    <li>Asset Servicer Data</li>
-                                </ul>
+                                <div class="karios-ai-type-list">
+                                    <ul class='karios-ai-data-listing'>
+                                        <li>Market Data</li>
+                                        <li>Alternative Data</li>
+                                        <li>Asset Servicer Data</li>
+                                    </ul>
+                                </div>
+
                             </div>
 
                             <div class="karios-ai-data">
                                 <div class="karios-ai-data-title">
                                     <h6 class="h6">External Data</h6>
                                 </div>
-                                <ul class='karios-ai-data-listing'>
-                                    <li>Reference Data</li>
-                                    <li>News and Events</li>
-                                    <li>PE Public Data</li>
-                                </ul>
+                                <div class="karios-ai-type-list">
+                                    <ul class='karios-ai-data-listing'>
+                                        <li>Reference Data</li>
+                                        <li>News and Events</li>
+                                        <li>PE Public Data</li>
+                                    </ul>
+                                </div>
+
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-4 karios-ai-diagram-area">
-                        <div class="karios-ai-details-types">
-                            <h4 class="h4">Brownloop Kairos</h4>
-                            <div class="karios-ai-modales">
-                                <div class="karios-modals">
-                                    <img src='./images/stage.png' width="60" height="60" alt='rag-modal' />
-                                    <h6 class="h6">RAG Models</h6>
-                                </div>
+                    <div class="karios-ai-diagram-area">
+                        <h4 class="h4">Brownloop Kairos</h4>
+                        <div class="karios-ai-modales">
+                            <div class="karios-modals">
+                                <img src='./images/stage.png' width="60" height="60" alt='rag-modal' />
+                                <h6 class="h6">RAG Models</h6>
+                            </div>
 
-                                <div class="karios-modals">
-                                    <img src='./images/stage.png' width="60" height="60" alt='rag-modal' />
-                                    <h6 class="h6">Brownloop Kairos AI PE
-                                        Models</h6>
-                                </div>
+                            <div class="karios-modals">
+                                <img src='./images/stage.png' width="60" height="60" alt='rag-modal' />
+                                <h6 class="h6">Brownloop Kairos AI PE
+                                    Models</h6>
+                            </div>
 
-                                <div class="karios-modals">
-                                    <img src='./images/stage.png' width="60" height="60" alt='rag-modal' />
-                                    <h6 class="h6">Foundational LLM Models</h6>
-                                </div>
+                            <div class="karios-modals">
+                                <img src='./images/stage.png' width="60" height="60" alt='rag-modal' />
+                                <h6 class="h6">Foundational LLM Models</h6>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-4 karios-ai-diagram-area">
-                        <div class="karios-ai-details-types karios-type-image">
-                            <div class=' karios-ai-diagram-images'>
-                                <img src='./images/diagramOne.png' alt='diagram-one' width='318' height='188' />
-                                <img src='./images/diagramTwo.png' alt='diagram-two' width='304' height='216' />
-                                <img src='./images/diagramThree.png' alt='diagram-three' width='304' height='216' />
-                            </div>
+                    <div class="karios-ai-diagram-area">
+
+                        <div class=' karios-ai-diagram-images'>
+                            <img src='./images/diagramOne.png' alt='diagram-one' width='318' height='188' />
+                            <img src='./images/diagramTwo.png' alt='diagram-two' width='304' height='216' />
+                            <img src='./images/diagramThree.png' alt='diagram-three' width='304' height='216' />
                         </div>
+
                     </div>
                 </div>
 

@@ -140,7 +140,7 @@ $(document).ready(function(){
         autoplaySpeed: 5000
     });
 
-    $('.event-news-slider').slick({
+    $('.event-news-slide').slick({
         dots: true,
         infinite: true,
         speed: 300,

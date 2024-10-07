@@ -17,6 +17,81 @@
     </section>
     <!-- banner end -->
 
+    <!-- service-value-chain section start -->
+    <section class="service-value-chain-wrap">
+        <div class="container">
+            <div class="service-value-chain">
+                <table class="table table-bordered">
+                    <thead>
+                        <td colspan="12">
+                            <h4 class="h4">Services Across the Private Equity Value Chain</h4>
+                        </td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="service-ideas">
+                                    <img src='./images/table-icon.png' alt='table-icon' width='24' height='24' />
+                                    <span>Sourcing To Exit</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="service-ideas">
+                                    <img src='./images/table-icon.png' alt='table-icon' width='24' height='24' />
+                                    <span>Portfolio Management - to - Value Creation</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="service-ideas">
+                                    <img src='./images/table-icon.png' alt='table-icon' width='24' height='24' />
+                                    <span>Fundraising to Distribution</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="service-ideas">
+                                    <img src='./images/table-icon.png' alt='table-icon' width='24' height='24' />
+                                    <span>Capital Call To Return Distribution</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="service-ideas">
+                                    <img src='./images/table-icon.png' alt='table-icon' width='24' height='24' />
+                                    <span>Due Diligence To Closing</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="service-ideas">
+                                    <img src='./images/table-icon.png' alt='table-icon' width='24' height='24' />
+                                    <span>Acquisition To Integration</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="service-ideas">
+                                    <img src='./images/table-icon.png' alt='table-icon' width='24' height='24' />
+                                    <span>Investment To Monitoring</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="service-ideas">
+                                    <img src='./images/table-icon.png' alt='table-icon' width='24' height='24' />
+                                    <span>Origination To Underwriting</span>
+                                </div>
+
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- service-value-chain section end -->
+
     <!-- services-drive-section start -->
     <section class="services-drive-wrap">
         <div class="container">
@@ -81,7 +156,7 @@
         <div class="container">
             <div class="services-method">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                         <h3 class="h3">Program Management Services</h3>
                         <div class="service-method-type">
                             <div class="services-drive-area">
@@ -99,7 +174,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                         <h3 class="h3">Application Maintenance</h3>
                         <div class="service-method-type">
                             <div class="services-drive-area">

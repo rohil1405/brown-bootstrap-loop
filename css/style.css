@@ -483,11 +483,66 @@ h6.h6 {
 .section-content a {
   padding: 28px 0 0;
 }
+.service-method-type .service-drive-item {
+  max-width: 405px;
+}
+.service-value-chain td {
+  padding: 0;
+}
+.service-value-chain table {
+  border: 1px solid #213745;
+  border-radius: 40px;
+  margin: 0;
+}
+.service-value-chain h4 {
+  padding: 32px 0;
+  text-align: center;
+}
+.service-ideas span {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #000;
+}
+.tab-filter {
+  background-color: #213745;
+  border-radius: 8px;
+  padding: 14px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.service-value-chain-wrap {
+  padding: 64px 0;
+}
+.service-ideas {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 56px;
+  padding: 8px 24px;
+}
 
+.service-value-chain thead td {
+  text-align: center;
+  width: 100%;
+}
+.service-value-chain tbody td {
+  width: 50%;
+}
+.service-method-type {
+  padding: 48px 0 0;
+}
+.services-method-wrap {
+  padding: 64px 0;
+}
 .service-drive-box {
   margin: 0 -16px;
   row-gap: 18px;
   display: flex;
+}
+.service-method-type .services-drive-area {
+  padding: 0;
 }
 .services-drive-area {
   padding: 0 16px;
@@ -2318,6 +2373,55 @@ input[type='file'] {
 .evaluting-criteria {
   position: relative;
 }
+.banner-event-news {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 24px;
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  gap: 32px;
+}
+.event-news-img img {
+  border-radius: 24px;
+  display: block;
+  max-width: 583px;
+}
+.event-news-date {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 1.6px;
+  color: #213745;
+  text-transform: uppercase;
+}
+.event-news-select {
+  display: inline-block;
+  padding: 0 15px;
+  background-color: rgba(212,217,213,0.5);
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1.6px;
+  color: #213745;
+  border-radius: 20px;
+}
+.event-news-slide {
+  display: flex;
+}
+.event-news-schedule {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 0 16px;
+}
+.event-news-content a h6:hover {
+  color: #213745;
+}
+.banner-event-news p {
+  padding: 16px 0 24px;
+}
+
 
 /* .future-with-uslife-contact-with-us.cta-btn.btn-lg a {
   background-color: #213745 ;
@@ -2491,12 +2595,12 @@ input[type='file'] {
   display: flex;
   justify-content: center;
 }
-.karios-ai-data-listing {
+.karios-ai-type-list {
   padding: 40px 107px 16px 24px;
   background-color: #213745;
   border-radius: 8px;
 }
-.karios-ai-details-types h4 {
+.karios-ai-diagram-area h4 {
   text-align: center;
 }
 .karios-ai-data-listing li {
@@ -2504,13 +2608,15 @@ input[type='file'] {
   font-size: 18px;
   line-height: 32px;
   font-weight: 400;
-  padding: 0 0 8px;
+  padding: 0 0 8px 24px;
   display: flex;
   align-items: center;
 }
-.karios-ai-diagram-area {
+.karios-ai-diagram-box {
   display: flex;
   justify-content: center;
+  gap: 74px;
+  position: relative;
 }
 .karios-ai-data-listing li:after {
   content: "";
@@ -2519,12 +2625,13 @@ input[type='file'] {
   border-radius: 100%;
   background-color: #fff;
   position: absolute;
-  left: 0;
+  left: 8%;
 }
-.karios-ai-details-types {
+.karios-ai-diagram-area {
   padding: 32px 24px 22px 24px;
   border: 4px dashed #213745;
   border-radius: 8px;
+  max-width: 363px;
 }
 .karios-ai-data-title {
   padding: 10px 16px;
@@ -2541,15 +2648,11 @@ input[type='file'] {
   margin: 64px 30px;
   padding: 128px 0;
 }
-.karios-ai-diagram-box {
-  position: relative;
-}
 .karios-ai-modales {
   padding: 56px 0 0
 }
 .karios-ai-diagram h4 {
   text-align: center;
-  padding: 24px 0 0;
 }
 .karios-modals {
   padding: 32px 45px;
@@ -2557,14 +2660,14 @@ input[type='file'] {
   text-align: center;
   margin: 0 0 32px;
   border-radius: 8px;
-  max-width: 310px;
+  max-width: 315px;
 }
 .karios-modals h6 {
   text-align: center;
   padding: 16px 0 0;
 }
 .karios-ai-diagram-area::before {
-  left: 31%;
+  left: 29%;
   top: 50%;
   content: "";
   width: 66px;
@@ -2595,9 +2698,7 @@ input[type='file'] {
 .karios-ai-content-box p {
   text-align: center;
 }
-/* .karios-type-image {
-  padding: 32px 22px 48px 22px;
-} */
+
 .karios-ai-diagram-images {
   display: flex;
   flex-wrap: wrap;
@@ -2615,7 +2716,7 @@ input[type='file'] {
 }
 .karios-ai-data {
   position: relative;
-  margin: 56px 0 19px;
+  margin: 40px 0 19px;
 }
 .karios-ai-cases {
   padding: 128px 0;
