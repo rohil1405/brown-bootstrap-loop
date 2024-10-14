@@ -2056,11 +2056,19 @@ h6.h6 {
   text-align: center;
   padding-top: 32px;
 }
-.job-location-details {
-  width: 100%;
+.job-location {
   padding: 32px;
+  border-bottom: 1px solid #EFEFEF;
+}
+.job-location-details {
+  position: sticky;
+  top: 135px;
+  width: 100%;
   border-radius: 24px;
   background-color: rgba(154, 171, 179, 0.30)
+}
+.job-location-details .social-media-listing {
+  padding: 24px 32px;
 }
 .job-address {
   padding: 24px 0 0;
@@ -2082,14 +2090,20 @@ h6.h6 {
   padding-top: 0;
 }
 .job-details {
-  max-width: 624px;
+  max-width: 644px;
   position: relative;
+  padding-left: 20px;
 }
 .job-details ul {
   padding: 24px 0 0;
 }
 .job-details ul li {
   padding: 0 0 8px 40px;
+  display: flex;
+  align-items: center;
+}
+.job-opening-details-wrap {
+  padding: 64px 0;
 }
 .job-details ul li:after {
   content: "";
@@ -2098,7 +2112,7 @@ h6.h6 {
   border-radius: 100%;
   background-color: #213745;
   position: absolute;
-  left: 0;
+  left: 3%;
   background-image: url('../images/tick.svg');
   background-repeat: no-repeat;
   background-size: auto;
@@ -2174,7 +2188,7 @@ input[type='file'] {
   gap: 15px;
   font-size: 16px;
   line-height: 28px;
-  font-weight: 24px;
+  font-weight: 24;
   color: #64748B;
 }
 .file-label:after{
@@ -2190,7 +2204,7 @@ input[type='file'] {
   color:#fff;
   line-height:24px;
   font-size: 16px;
-  font-weight: 24px;
+  font-weight: 24;
   border-radius: 50px;
 }
 .file-control {
@@ -2262,6 +2276,8 @@ input[type='file'] {
   padding: 64px 0 32px;
 }
 .news-social-media {
+  position: sticky;
+  top: 135px;
   max-width: 109px;
   margin: 0 auto;
   padding: 24px 32px;
@@ -2596,8 +2612,9 @@ input[type='file'] {
   display: flex;
   justify-content: center;
 }
+
 .karios-ai-type-list {
-  padding: 40px 107px 16px 24px;
+  padding: 40px 60px 16px 24px;
   background-color: #213745;
   border-radius: 8px;
 }
@@ -2654,6 +2671,7 @@ input[type='file'] {
 }
 .karios-ai-diagram h4 {
   text-align: center;
+  padding: 24px 0 0;
 }
 .karios-modals {
   padding: 32px 45px;
@@ -2667,8 +2685,11 @@ input[type='file'] {
   text-align: center;
   padding: 16px 0 0;
 }
+.karios-ai-diagram-area.area-arrow::before {
+  left: 63%;
+}
 .karios-ai-diagram-area::before {
-  left: 29%;
+  left: 28%;
   top: 50%;
   content: "";
   width: 66px;

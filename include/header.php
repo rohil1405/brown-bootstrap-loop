@@ -37,32 +37,33 @@
 
     <div class="modal fade" id="modalForm" data-bs-backdrop="static" data-bs-keyboard="false">
         <div class="modal-dialog">
+            <div class="modal-close-wrap">
+                <img class='btn-close' src='./images/free-close.png' alt='free-colse' width="24" height="24" />
+            </div>
             <div class="modal-content">
                 <div class="modal-header">
                     <h3>Request a Demo</h3>
-                    <div class="modal-close-wrap">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
+
 
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="row modal-fieldset">
-                            <div class="col">
+                            <div class="col-sm-6 modal-fieldset-col">
                                 <label for="first-name" class="form-label">Person Name*</label>
                                 <input type="text" id='full-name' class="form-control" placeholder="Full Name" required>
                             </div>
-                            <div class="col">
+                            <div class="col-sm-6">
                                 <label for="last-name" class="form-label">Company Name*</label>
                                 <input type="text" id='company-name' class="form-control" placeholder="Company Name" required>
                             </div>
                         </div>
                         <div class="row modal-fieldset">
-                            <div class="col">
+                            <div class="col-sm-6 modal-fieldset-col">
                                 <label for="position" class="form-label">Email*</label>
                                 <input type="email" id='postion' class="form-control" placeholder="Email Address" required>
                             </div>
-                            <div class="col">
+                            <div class="col-sm-6">
                                 <label for="phone-number" class="form-label">Phone*</label>
                                 <input type="number" id='phone-number' class="form-control" placeholder="Phone" required>
                             </div>

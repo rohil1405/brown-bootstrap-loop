@@ -92,7 +92,7 @@
                         </div>
                     </div>
 
-                    <div class="karios-ai-diagram-area">
+                    <div class="karios-ai-diagram-area area-arrow">
                         <h4 class="h4">Brownloop Kairos</h4>
                         <div class="karios-ai-modales">
                             <div class="karios-modals">

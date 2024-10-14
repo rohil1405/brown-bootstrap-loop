@@ -154,18 +154,25 @@ header {
 .show {
   display: block;
 }
-
+#modalForm {
+  background-color: rgba(0,0,0,0.6);
+}
 .hide {
   display: none;
 }
 .modal-dialog {
   position: relative;
-  max-width: 700px;
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .modal-content {
   width: 700px;
   padding: 32px;
   border-radius: 32px;
+  margin: 0 auto;
 }
 .modal-fieldset {
   padding: 0 0 32px;
@@ -209,6 +216,7 @@ header {
   border: 0;
 }
 .modal-close-wrap {
+  z-index: 999;
   width: 44px;
   height: 44px;
   background-color: #213745;
@@ -218,12 +226,14 @@ header {
   justify-content: center;
   position: absolute;
   top: 0;
-  right: -90%;
+  right: 32px;
 }
 .modal-close-wrap .btn-close {
-  opacity: 0.3;
+  opacity: 1;
   margin: 0;
+  padding: 0;
 }
+
 
  
 @media (max-width: 1600px) {
@@ -314,4 +324,45 @@ header {
     z-index: 9999;
   }
 
+}
+
+@media(max-width: 991px) {
+  .modal-content {
+    padding: 28px;
+    max-width: 625px;
+  }
+  .modal-header {
+    padding: 0 0 24px;
+  }
+  .modal-fieldset {
+    padding: 0 0 25px;
+  }
+}
+
+@media(max-width: 576px) {
+  .modal-content {
+    padding: 24px;
+    max-width: 550px;
+  }
+  .modal-header {
+    padding: 0 0 20px;
+  }
+  .modal-fieldset {
+    padding: 0 0 22px;
+  }
+}
+
+@media(max-width: 375px) {
+  .modal-content {
+    padding: 18px;
+  }
+  .modal-header {
+    padding: 0 0 15px;
+  }
+  .modal-fieldset {
+    padding: 0 0 14px;
+  }
+  .modal-fieldset-col {
+    padding-bottom: 14px;
+  }
 }

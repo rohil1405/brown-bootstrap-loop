@@ -29,7 +29,7 @@
         <div class="container">
             <div class="news-details">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-md-2 news-social-media-map">
                         <div class="news-social-media">
                             <ul>
                                 <li>

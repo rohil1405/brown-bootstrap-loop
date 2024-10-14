@@ -557,6 +557,36 @@
     .service-value-chain-wrap {
         padding: 50px 0;
     }
+    .job-apply-wrap {
+        padding: 50px 0;
+    }
+    .job-apply h2 {
+        padding: 0 0 35px;
+    }
+    .job-apply form {
+        padding: 35px 24px;
+    }
+    .job-fieldset {
+        padding: 0 0 26px;
+    }
+    .job-location-details .social-media-listing {
+        padding: 20px 25px;
+    }
+    .job-location {
+        padding: 25px;
+    }
+    .job-address {
+        padding: 20px 0 0;
+    }
+    .job-details-item {
+        padding: 34px 0;
+    }
+    .job-opening-details-wrap {
+        padding: 50px 0;
+    }
+    .job-details ul {
+        padding: 20px 0 0;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -873,6 +903,12 @@
         padding: 28px 0 0;
     }
     .service-value-chain-wrap {
+        padding: 35px 0;
+    }
+    .job-apply-wrap {
+        padding: 35px 0;
+    }
+    .job-opening-details-wrap {
         padding: 35px 0;
     }
 }
@@ -1560,6 +1596,43 @@
         gap: 10px;
         padding: 8px 20px;
     }
+    .job-apply-wrap {
+        padding: 22px 0;
+    }
+    .job-apply h2 {
+        padding: 0 0 26px;
+    }
+    .job-apply form {
+        padding: 26px 20px;
+    }
+    .job-fieldset {
+        padding: 0 0 22px;
+    }
+    .job-details {
+        max-width: 100%;
+    }
+    .job-details ul {
+        padding: 16px 0 0;
+    }
+    .job-opening-details-wrap {
+        padding: 22px 0;
+    }
+    .job-details-item {
+        padding: 26px 0;
+    }
+    .job-location {
+        padding: 20px;
+    }
+    .job-location-details .social-media-listing {
+        padding: 20px;
+    }
+    .job-address {
+        padding: 5px 0 0;
+    }
+    .job-location-details {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1987,6 +2060,7 @@
     .news-social-media {
         max-width: 100%;
         padding: 16px 24px;
+        background-color: rgba(154,171,179);
     }
     .news-share {
         padding: 6px 0 0;
@@ -2088,5 +2162,61 @@
     .services-method h3 {
         text-align: center;
     }
-    
+    .job-apply form {
+        padding: 20px 16px;
+    }
+    .job-apply .form-control {
+        height: 50px; 
+    }
+    .job-fieldset {
+        padding: 0 0 12px;
+    }
+    .job-details-item {
+        padding: 22px 0;
+        flex-wrap: wrap;
+    }
+    .job-details {
+        padding: 15px 0 0;
+    }
+    .job-details ul {
+        padding: 12px 0 0;
+    }
+    .job-details ul li:after {
+        left: 0;
+    }   
+    .file-label span {
+        gap: 8px;
+    } 
+    .file-label:after {
+        padding: 10px;
+        margin: 6px;
+    }
+    .file-label span img {
+        display: none;
+    }
+    .job-fieldset-col {
+        padding-bottom: 12px;
+    }
+    .job-location-details {
+        flex-wrap: wrap;
+    }
+    .job-location-details .social-media-listing {
+        justify-content: center;
+        width: 100%;
+        padding: 16px;
+        gap: 12px;
+    }
+    .job-location {
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .job-location h5 {
+        text-align: center;
+    }
+    .news-social-media-map {
+        position: sticky;
+        top: 100px;
+        z-index: 1;
+    }
 }

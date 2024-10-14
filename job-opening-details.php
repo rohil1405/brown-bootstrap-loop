@@ -26,7 +26,7 @@
         <div class="container">
             <div class="job-opening-details">
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-lg-9">
                         <div class="job-details-item">
                             <h5 class="h5">Overview</h5>
 
@@ -112,7 +112,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3">
                         <div class="job-location-details">
                             <div class="job-location">
                                 <h5 class="h5">Location</h5>
@@ -152,11 +152,11 @@
                 <h2 class="h2">Apply For This Position</h2>
                 <form>
                     <div class="row job-fieldset">
-                        <div class="col">
+                        <div class="col-sm-6 job-fieldset-col">
                             <label for="first-name" class="form-label">First Name</label>
                             <input type="text" id='first-name' class="form-control" placeholder="First Name">
                         </div>
-                        <div class="col">
+                        <div class="col-sm-6">
                             <label for="last-name" class="form-label">Last Name</label>
                             <input type="text" id='last-name' class="form-control" placeholder="Last Name">
                         </div>
@@ -168,16 +168,17 @@
                         </div>
                     </div>
                     <div class="row job-fieldset">
-                        <div class="col">
+                        <div class="col-sm-6 job-fieldset-col">
                             <label for="phone-number" class="form-label">Phone</label>
                             <input type="number" id='phone-number' class="form-control" placeholder="Phone">
                         </div>
-                        <div class="col">
+                        <div class="col-sm-6">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" id='email' class="form-control" placeholder="Email Address">
                         </div>
                     </div>
                     <div class="col job-fieldset">
+                    <label for="file" class="form-label">Upload Resume</label>
                         <div class='file-group'>
                             <input type="file" id=' file' class='file-control' multiple />
                             <label for='file' class='file-label'><span>
